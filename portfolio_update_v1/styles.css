@@ -78,7 +78,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 0%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -179,6 +179,10 @@ a.github {
   background-image: url(images/github.svg);
 }
 
+a.gplus {
+  background-image: url(images/gplus.svg);
+}
+
 a.social:hover {
   opacity: 1;
 }
@@ -244,8 +248,21 @@ a.social:hover {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   display: block;
-  width: 50%;  
+  width: 50%; 
+   
+}
+
+.basketball{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
 }
 
 .h2{
@@ -254,4 +271,19 @@ text-align: center;
 
 .hobbies-card{
 padding-top: 10px;
+}
+
+.football{
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 150px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ width: 50%;
+}
+
+.skills.dog-card {
+  margin: 40px;
 }
